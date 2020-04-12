@@ -14,7 +14,7 @@ source:
 
 build:
   merge_build_host: true  # [win]
-  number: 0
+  number: 1
   skip: true  # [r_base == '3.5.1']
   noarch: generic
   rpaths:
@@ -26,25 +26,24 @@ requirements:
     - {{posix}}zip               # [win]
   host:
     - r-base
-    - r-broomextra
     - r-crayon
-    - r-dplyr >=0.8.3
+    - r-dplyr
     - r-forcats
-    - r-rlang >=0.4.2
+    - r-magrittr
+    - r-rlang
     - r-rstudioapi
-    - r-tibble >=2.0.1
-    - r-tidyr >=1.0.0
+    - r-tibble
+    - r-tidyr
     - r-zeallot
   run:
     - r-base
-    - r-broomextra
     - r-crayon
-    - r-dplyr >=0.8.3
+    - r-dplyr
     - r-forcats
-    - r-rlang >=0.4.2
+    - r-rlang
     - r-rstudioapi
-    - r-tibble >=2.0.1
-    - r-tidyr >=1.0.0
+    - r-tibble
+    - r-tidyr
     - r-zeallot
 
 test:
