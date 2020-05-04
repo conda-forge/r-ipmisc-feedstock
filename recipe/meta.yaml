@@ -15,7 +15,6 @@ source:
 build:
   merge_build_host: true  # [win]
   number: 2
-  skip: true  # [r_base == '3.5.1']
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -53,7 +52,7 @@ test:
 
 about:
   home: https://indrajeetpatil.github.io/ipmisc/, https://github.com/IndrajeetPatil/ipmisc
-  license: GPL-3.0
+  license: GPL-3.0-only
   summary: "Provides functions needed for data cleaning and formatting and forms data cleaning and wrangling backend for the following packages: 'ggstatsplot', 'groupedstats',\
     \ 'pairwiseComparisons', and 'statsExpressions'."
   license_family: GPL3
