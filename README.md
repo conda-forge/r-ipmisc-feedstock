@@ -3,7 +3,7 @@ About r-ipmisc
 
 Home: https://indrajeetpatil.github.io/ipmisc/, https://github.com/IndrajeetPatil/ipmisc
 
-Package license: GPL-3.0
+Package license: GPL-3.0-only
 
 Feedstock license: BSD 3-Clause
 
