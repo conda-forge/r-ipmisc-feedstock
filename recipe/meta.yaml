@@ -1,4 +1,4 @@
-{% set version = "4.0.0" %}
+{% set version = "4.1.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ipmisc_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ipmisc/ipmisc_{{ version }}.tar.gz
-  sha256: e3150e49048d37ee3dc72c9c2702217ffa6dbb580d2d1148234a595f12c03776
+  sha256: 862556c61131a08c80e824ae346da1c4a8db2dce4025be98b9a562564aa749f5
 
 build:
   merge_build_host: true  # [win]
