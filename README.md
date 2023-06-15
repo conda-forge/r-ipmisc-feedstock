@@ -1,11 +1,11 @@
-About r-ipmisc
-==============
+About r-ipmisc-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ipmisc-feedstock/blob/main/LICENSE.txt)
 
 Home: https://indrajeetpatil.github.io/ipmisc/, https://github.com/IndrajeetPatil/ipmisc
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ipmisc-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides functions needed for data cleaning and formatting and forms data cleaning and wrangling backend for the following packages: 'ggstatsplot', 'groupedstats', 'pairwiseComparisons', and 'statsExpressions'.
 
