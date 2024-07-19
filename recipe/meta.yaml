@@ -1,6 +1,5 @@
 {% set version = "6.0.2" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-ipmisc
@@ -13,8 +12,7 @@ source:
   sha256: d3b3589fcb9eb977510da1d3fea58781f11f48312abbb26f386387296e09c8b6
 
 build:
-  merge_build_host: true  # [win]
-  number: 2
+  number: 3
   noarch: generic
   rpaths:
     - lib/R/lib/
